@@ -9,7 +9,7 @@
 /* Theme default */
 body {
   font-family: 'Open Sans', arial, sans-serif;
-  color: #494d55;
+  color: #494d55;/*цвет текста оглавления*/
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,7 +19,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #3aa7aa;
+  color:  #36c53d;/*цвет ссылки*/
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -27,7 +27,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #339597;
+  color: #36c53d;/*цвет ссылки когда наводишься*/
 }
 a:active {
   text-decoration: none;
@@ -55,9 +55,9 @@ a.btn-cta {
   font-size: 16px;
   padding: 10px 30px;
 }
-.btn-primary {
-  background: #40babd;
-  border: 1px solid #40babd;
+.btn-primary {/*кнопка*/
+  background: #741177;
+  border: 1px solid #000000;
   color: #fff;
 }
 .btn-primary:hover,
@@ -65,9 +65,9 @@ a.btn-cta {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary.hover {
-  background: #3aa7aa;
+  background: #901594;
+  border: 1px solid #1f1f1f;
   color: #fff;
-  border: 1px solid #3aa7aa;
 }
 .carousel-fade .carousel-inner .item {
   transition-property: opacity;
@@ -97,15 +97,15 @@ a.btn-cta {
   margin-bottom: 0;
 }
 .carousel-indicators li {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(174, 0, 255, 0.527);/*цвет трёх точечек сверху когда неактивны*/
   border: none;
   width: 11px;
   height: 11px;
   margin: 0;
   margin-right: 5px;
 }
-.carousel-indicators li.active {
-  background-color: #40babd;
+.carousel-indicators li.active {/*цвет трёх точечек сверху когда активны*/
+  background-color: #e76d08;
   width: 11px;
   height: 11px;
   margin: 0;
