@@ -58,7 +58,7 @@ a.btn-cta {
 .btn-primary {/*кнопка*/
   background: #741177;
   border: 1px solid #000000;
-  color: #fff;
+  color: #ffffff;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -742,6 +742,25 @@ a.btn-cta {
 }
 .team-section .member-desc {
   color: #616670;
+}
+/* ======= Map Section ======= */
+.map-section{
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background: #494d55;
+  color: #fff;
+}
+.map-section .section-title {
+  margin: 0;
+  margin-bottom: 50px;
+  margin-left: 40%;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.map-section .map-position{
+  margin-left: 15%;
+  margin-right: 25%;
 }
 /* ======= Contact Section ======= */
 .contact-section {
